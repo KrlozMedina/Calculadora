@@ -5,10 +5,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Calculadora extends JFrame {
+    // Variables globales
     String valorPantalla;
-    String operador;
+    String operador = "";
     double numero1;
     double copiaNumero;
+
+    // Variables para la interfaz
     private JButton key5;
     private JPanel ventana;
     private JLabel display;
@@ -32,6 +35,7 @@ public class Calculadora extends JFrame {
     private JButton keyMultiplication;
     private JButton keyDeletion;
 
+    // Metodos
     private void concatenarNumero(String valor) {
         if (display.getText() != "Seleccione el primer numero") {
             this.valorPantalla = display.getText();
@@ -50,6 +54,7 @@ public class Calculadora extends JFrame {
         display.setText("");
     }
 
+    // Constructor
     public Calculadora() {
         super("Calculadora");
         setContentPane(ventana);
@@ -104,29 +109,36 @@ public class Calculadora extends JFrame {
         keyEqual.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                double valor = Double.parseDouble(display.getText());
-//                double resultado = 0;
-                switch (operador) {
-                    case "+":
-                        numero1 += valor;
-                        break;
-                    case "-":
-                        numero1 -= valor;
-                        break;
-                    case "*":
-                        numero1 *= valor;
-                        break;
-                    case "/":
-                        if (valor != 0.0) {
-                            numero1 /= valor;
-                        } else {
-                            System.out.println("No es posible dividir entre 0");
-                        }
-                        break;
-                    case "e":
-                        numero1 = Math.pow(numero1, valor);
+                if (display.getText().length() != 0) {
+                    double valor = Double.parseDouble(display.getText());
+                    switch (operador) {
+                        case "+":
+                            numero1 += valor;
+                            break;
+                        case "-":
+                            numero1 -= valor;
+                            break;
+                        case "*":
+                            numero1 *= valor;
+                            break;
+                        case "/":
+                            if (valor != 0.0) {
+                                numero1 /= valor;
+                            } else {
+                                System.out.println("No es posible dividir entre 0");
+                            }
+                            break;
+                        case "e":
+                            numero1 = Math.pow(numero1, valor);
+                            break;
+                        case "":
+                            numero1 = valor;
+                            break;
+                    }
+                    display.setText(String.valueOf(numero1));
+                } else {
+                    System.out.println("No hay informacion suficiente para hacer un calculo");
                 }
-                display.setText(String.valueOf(numero1));
             }
         });
         key3.addActionListener(new ActionListener() {
