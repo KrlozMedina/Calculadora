@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a8acdc9-7a1f-4c16-a17b-a7d96a12622e" name="Changes" comment="&quot;[PRB] Correccion con Lina&quot;">
+    <list default="true" id="2a8acdc9-7a1f-4c16-a17b-a7d96a12622e" name="Changes" comment="&quot;[PRB] Correccion a POO&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Operators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Operaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Operaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Operaciones.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677884929934</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;[PRB] Correccion a POO&quot;">
+      <created>1677930626322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677930626322</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +156,7 @@
     <MESSAGE value="[FINISH] Primera etapa de la calculadora" />
     <MESSAGE value="&quot;[FINISH] Primera etapa de la calculadora&quot;" />
     <MESSAGE value="&quot;[PRB] Correccion con Lina&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;[PRB] Correccion con Lina&quot;" />
+    <MESSAGE value="&quot;[PRB] Correccion a POO&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;[PRB] Correccion a POO&quot;" />
   </component>
 </project>
