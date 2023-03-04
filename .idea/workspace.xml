@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a8acdc9-7a1f-4c16-a17b-a7d96a12622e" name="Changes" comment="&quot;[PRB] Correccion a POO&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Operators.java" afterDir="false" />
+    <list default="true" id="2a8acdc9-7a1f-4c16-a17b-a7d96a12622e" name="Changes" comment="&quot;[POO] Actualization the calculator with POO&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculadora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Operaciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/krlozmedina/Calculator.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/krlozmedina/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/krlozmedina/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/krlozmedina/Operators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +30,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,16 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -106,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677930626322</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;[POO] Actualization the calculator with POO&quot;">
+      <created>1677942357539</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677942357539</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,7 +129,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="POO" />
+                        <option value="origin/java" />
                       </list>
                     </value>
                   </entry>
@@ -157,6 +161,8 @@
     <MESSAGE value="&quot;[FINISH] Primera etapa de la calculadora&quot;" />
     <MESSAGE value="&quot;[PRB] Correccion con Lina&quot;" />
     <MESSAGE value="&quot;[PRB] Correccion a POO&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;[PRB] Correccion a POO&quot;" />
+    <MESSAGE value="&quot;[POO] Actualizacion del codigo usando POO&quot;" />
+    <MESSAGE value="&quot;[POO] Actualization the calculator with POO&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;[POO] Actualization the calculator with POO&quot;" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package org.example;
+package krlozmedina;
 
 import javax.swing.*;
 
