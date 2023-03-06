@@ -1,6 +1,9 @@
 package krlozmedina;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.Objects;
 
 public class Calculator extends JFrame {
@@ -61,6 +64,14 @@ public class Calculator extends JFrame {
     
     public Calculator() {
         super("Calculator");
+
+        Dimension pantalla = Toolkit.getDefaultToolkit().getScreenSize();
+        int height = pantalla.height;
+        int width = pantalla.width;
+        setSize(width/4, height/4);
+        setLocationRelativeTo(null);
+        setVisible(true);
+
         setContentPane(window);
         keyNum0.addActionListener(e -> updateDisplay("0"));
         keyNum1.addActionListener(e -> updateDisplay("1"));

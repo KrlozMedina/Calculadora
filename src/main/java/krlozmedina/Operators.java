@@ -1,7 +1,5 @@
 package krlozmedina;
 
-import java.io.Serializable;
-
 public class Operators {
     private double valueInDisplay;
     private String operator;
@@ -39,7 +37,7 @@ public class Operators {
         setTotal(num1 - num2);
     }
 
-    private void calcultedMultiplication(double num1, double num2) {
+    private void calculatedMultiplication(double num1, double num2) {
         setTotal(num1 * num2);
     }
 
@@ -56,7 +54,7 @@ public class Operators {
         switch (getOperator()) {
             case "+" -> calculatedAddition(getValueInDisplay(), newValue);
             case "-" -> calculatedSubtraction(getValueInDisplay(), newValue);
-            case "*" -> calcultedMultiplication(getValueInDisplay(), newValue);
+            case "*" -> calculatedMultiplication(getValueInDisplay(), newValue);
             case "/" -> calculatedDivision(getValueInDisplay(), newValue);
             case "e" -> calculatedPow(getValueInDisplay(), newValue);
             default -> setTotal(0);
