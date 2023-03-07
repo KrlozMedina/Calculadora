@@ -5,9 +5,6 @@ import java.awt.*;
 
 public class Converter extends JFrame {
     Currency currency = new Currency();
-    private JButton converter;
-    private JTextField Value;
-    private JLabel display;
     private JPanel window;
     private JButton buttonConvert;
     private JComboBox comboBoxCurrencyActual;
@@ -37,7 +34,10 @@ public class Converter extends JFrame {
         assignLabelBox(comboBoxCurrencyConvert);
 
         buttonConvert.addActionListener(e -> {
-            labelCurrency.setText(currency.calculatedCurrency(comboBoxCurrencyActual.getSelectedIndex(), comboBoxCurrencyConvert.getSelectedIndex(), inputCurrency.getText()));
+            labelCurrency.setText(currency.calculatedCurrency(
+                    comboBoxCurrencyActual.getSelectedIndex(),
+                    comboBoxCurrencyConvert.getSelectedIndex(),
+                    inputCurrency.getText()));
         });
     }
 }

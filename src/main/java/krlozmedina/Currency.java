@@ -3,8 +3,8 @@ package krlozmedina;
 import java.text.DecimalFormat;
 
 public class Currency {
-    private String[] currencies = {"USD", "COP", "EUR", "MXN"};
-    private double[] valueCurrenciesFromUSD = {1, 4788.63, 0.94, 17.96};
+    private String[] currencies =               {"USD", "EUR",  "GBP",  "JPY",  "KRW",      "COP"};
+    private double[] valueCurrenciesFromUSD =   {1,     0.94,   0.83,   136.01, 1299.32,    4732.01};
     private double valueActual;
     private double valueInUSD;
     private double currencyOther;
